@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E95BCFE7230232AD007E990B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BCFE6230232AD007E990B /* AppDelegate.swift */; };
+		E95BCFE9230232AD007E990B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BCFE8230232AD007E990B /* ViewController.swift */; };
+		E95BCFEC230232AD007E990B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95BCFEA230232AD007E990B /* Main.storyboard */; };
+		E95BCFEE230232AE007E990B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95BCFED230232AE007E990B /* Assets.xcassets */; };
+		E95BCFF1230232AE007E990B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95BCFEF230232AE007E990B /* LaunchScreen.storyboard */; };
+		E95BCFFC230232AE007E990B /* watcHTTPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BCFFB230232AE007E990B /* watcHTTPTests.swift */; };
+		E95BD001230232AE007E990B /* watcHTTP WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E95BD000230232AE007E990B /* watcHTTP WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E95BD007230232AE007E990B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95BD005230232AE007E990B /* Interface.storyboard */; };
+		E95BD009230232AF007E990B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95BD008230232AF007E990B /* Assets.xcassets */; };
+		E95BD010230232AF007E990B /* watcHTTP WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E95BD00F230232AF007E990B /* watcHTTP WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E95BD015230232AF007E990B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BD014230232AF007E990B /* InterfaceController.swift */; };
+		E95BD017230232AF007E990B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BD016230232AF007E990B /* ExtensionDelegate.swift */; };
+		E95BD019230232B0007E990B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95BD018230232B0007E990B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E95BCFF8230232AE007E990B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E95BCFDB230232AD007E990B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95BCFE2230232AD007E990B;
+			remoteInfo = watcHTTP;
+		};
+		E95BD002230232AE007E990B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E95BCFDB230232AD007E990B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95BCFFF230232AE007E990B;
+			remoteInfo = "watcHTTP WatchKit App";
+		};
+		E95BD011230232AF007E990B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E95BCFDB230232AD007E990B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95BD00E230232AF007E990B;
+			remoteInfo = "watcHTTP WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E95BD020230232B0007E990B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E95BD010230232AF007E990B /* watcHTTP WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95BD024230232B0007E990B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E95BD001230232AE007E990B /* watcHTTP WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E95BCFE3230232AD007E990B /* watcHTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watcHTTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95BCFE6230232AD007E990B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E95BCFE8230232AD007E990B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E95BCFEB230232AD007E990B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E95BCFED230232AE007E990B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E95BCFF0230232AE007E990B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E95BCFF2230232AE007E990B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95BCFF7230232AE007E990B /* watcHTTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watcHTTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95BCFFB230232AE007E990B /* watcHTTPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watcHTTPTests.swift; sourceTree = "<group>"; };
+		E95BCFFD230232AE007E990B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95BD000230232AE007E990B /* watcHTTP WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watcHTTP WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95BD006230232AE007E990B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E95BD008230232AF007E990B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E95BD00A230232AF007E990B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95BD00F230232AF007E990B /* watcHTTP WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watcHTTP WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95BD014230232AF007E990B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E95BD016230232AF007E990B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E95BD018230232B0007E990B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E95BD01A230232B0007E990B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E95BCFE0230232AD007E990B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95BCFF4230232AE007E990B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95BD00C230232AF007E990B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E95BCFDA230232AD007E990B = {
+			isa = PBXGroup;
+			children = (
+				E95BCFE5230232AD007E990B /* watcHTTP */,
+				E95BCFFA230232AE007E990B /* watcHTTPTests */,
+				E95BD004230232AE007E990B /* watcHTTP WatchKit App */,
+				E95BD013230232AF007E990B /* watcHTTP WatchKit Extension */,
+				E95BCFE4230232AD007E990B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E95BCFE4230232AD007E990B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E95BCFE3230232AD007E990B /* watcHTTP.app */,
+				E95BCFF7230232AE007E990B /* watcHTTPTests.xctest */,
+				E95BD000230232AE007E990B /* watcHTTP WatchKit App.app */,
+				E95BD00F230232AF007E990B /* watcHTTP WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E95BCFE5230232AD007E990B /* watcHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				E95BCFE6230232AD007E990B /* AppDelegate.swift */,
+				E95BCFE8230232AD007E990B /* ViewController.swift */,
+				E95BCFEA230232AD007E990B /* Main.storyboard */,
+				E95BCFED230232AE007E990B /* Assets.xcassets */,
+				E95BCFEF230232AE007E990B /* LaunchScreen.storyboard */,
+				E95BCFF2230232AE007E990B /* Info.plist */,
+			);
+			path = watcHTTP;
+			sourceTree = "<group>";
+		};
+		E95BCFFA230232AE007E990B /* watcHTTPTests */ = {
+			isa = PBXGroup;
+			children = (
+				E95BCFFB230232AE007E990B /* watcHTTPTests.swift */,
+				E95BCFFD230232AE007E990B /* Info.plist */,
+			);
+			path = watcHTTPTests;
+			sourceTree = "<group>";
+		};
+		E95BD004230232AE007E990B /* watcHTTP WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E95BD005230232AE007E990B /* Interface.storyboard */,
+				E95BD008230232AF007E990B /* Assets.xcassets */,
+				E95BD00A230232AF007E990B /* Info.plist */,
+			);
+			path = "watcHTTP WatchKit App";
+			sourceTree = "<group>";
+		};
+		E95BD013230232AF007E990B /* watcHTTP WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E95BD014230232AF007E990B /* InterfaceController.swift */,
+				E95BD016230232AF007E990B /* ExtensionDelegate.swift */,
+				E95BD018230232B0007E990B /* Assets.xcassets */,
+				E95BD01A230232B0007E990B /* Info.plist */,
+			);
+			path = "watcHTTP WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E95BCFE2230232AD007E990B /* watcHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95BD025230232B0007E990B /* Build configuration list for PBXNativeTarget "watcHTTP" */;
+			buildPhases = (
+				E95BCFDF230232AD007E990B /* Sources */,
+				E95BCFE0230232AD007E990B /* Frameworks */,
+				E95BCFE1230232AD007E990B /* Resources */,
+				E95BD024230232B0007E990B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E95BD003230232AE007E990B /* PBXTargetDependency */,
+			);
+			name = watcHTTP;
+			productName = watcHTTP;
+			productReference = E95BCFE3230232AD007E990B /* watcHTTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E95BCFF6230232AE007E990B /* watcHTTPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95BD028230232B0007E990B /* Build configuration list for PBXNativeTarget "watcHTTPTests" */;
+			buildPhases = (
+				E95BCFF3230232AE007E990B /* Sources */,
+				E95BCFF4230232AE007E990B /* Frameworks */,
+				E95BCFF5230232AE007E990B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E95BCFF9230232AE007E990B /* PBXTargetDependency */,
+			);
+			name = watcHTTPTests;
+			productName = watcHTTPTests;
+			productReference = E95BCFF7230232AE007E990B /* watcHTTPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E95BCFFF230232AE007E990B /* watcHTTP WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95BD021230232B0007E990B /* Build configuration list for PBXNativeTarget "watcHTTP WatchKit App" */;
+			buildPhases = (
+				E95BCFFE230232AE007E990B /* Resources */,
+				E95BD020230232B0007E990B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E95BD012230232AF007E990B /* PBXTargetDependency */,
+			);
+			name = "watcHTTP WatchKit App";
+			productName = "watcHTTP WatchKit App";
+			productReference = E95BD000230232AE007E990B /* watcHTTP WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E95BD00E230232AF007E990B /* watcHTTP WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95BD01D230232B0007E990B /* Build configuration list for PBXNativeTarget "watcHTTP WatchKit Extension" */;
+			buildPhases = (
+				E95BD00B230232AF007E990B /* Sources */,
+				E95BD00C230232AF007E990B /* Frameworks */,
+				E95BD00D230232AF007E990B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watcHTTP WatchKit Extension";
+			productName = "watcHTTP WatchKit Extension";
+			productReference = E95BD00F230232AF007E990B /* watcHTTP WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E95BCFDB230232AD007E990B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Leo Nesfield";
+				TargetAttributes = {
+					E95BCFE2230232AD007E990B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					E95BCFF6230232AE007E990B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = E95BCFE2230232AD007E990B;
+					};
+					E95BCFFF230232AE007E990B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					E95BD00E230232AF007E990B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = E95BCFDE230232AD007E990B /* Build configuration list for PBXProject "watcHTTP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E95BCFDA230232AD007E990B;
+			productRefGroup = E95BCFE4230232AD007E990B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E95BCFE2230232AD007E990B /* watcHTTP */,
+				E95BCFF6230232AE007E990B /* watcHTTPTests */,
+				E95BCFFF230232AE007E990B /* watcHTTP WatchKit App */,
+				E95BD00E230232AF007E990B /* watcHTTP WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E95BCFE1230232AD007E990B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95BCFF1230232AE007E990B /* LaunchScreen.storyboard in Resources */,
+				E95BCFEE230232AE007E990B /* Assets.xcassets in Resources */,
+				E95BCFEC230232AD007E990B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95BCFF5230232AE007E990B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95BCFFE230232AE007E990B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95BD009230232AF007E990B /* Assets.xcassets in Resources */,
+				E95BD007230232AE007E990B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95BD00D230232AF007E990B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95BD019230232B0007E990B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E95BCFDF230232AD007E990B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95BCFE9230232AD007E990B /* ViewController.swift in Sources */,
+				E95BCFE7230232AD007E990B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95BCFF3230232AE007E990B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95BCFFC230232AE007E990B /* watcHTTPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95BD00B230232AF007E990B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95BD017230232AF007E990B /* ExtensionDelegate.swift in Sources */,
+				E95BD015230232AF007E990B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E95BCFF9230232AE007E990B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E95BCFE2230232AD007E990B /* watcHTTP */;
+			targetProxy = E95BCFF8230232AE007E990B /* PBXContainerItemProxy */;
+		};
+		E95BD003230232AE007E990B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E95BCFFF230232AE007E990B /* watcHTTP WatchKit App */;
+			targetProxy = E95BD002230232AE007E990B /* PBXContainerItemProxy */;
+		};
+		E95BD012230232AF007E990B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E95BD00E230232AF007E990B /* watcHTTP WatchKit Extension */;
+			targetProxy = E95BD011230232AF007E990B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E95BCFEA230232AD007E990B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95BCFEB230232AD007E990B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E95BCFEF230232AE007E990B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95BCFF0230232AE007E990B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E95BD005230232AE007E990B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95BD006230232AE007E990B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E95BD01B230232B0007E990B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E95BD01C230232B0007E990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E95BD01E230232B0007E990B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TNZTGQL4G;
+				INFOPLIST_FILE = "watcHTTP WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thelmgn.watcHTTP.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		E95BD01F230232B0007E990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TNZTGQL4G;
+				INFOPLIST_FILE = "watcHTTP WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thelmgn.watcHTTP.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		E95BD022230232B0007E990B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TNZTGQL4G;
+				IBSC_MODULE = watcHTTP_WatchKit_Extension;
+				INFOPLIST_FILE = "watcHTTP WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thelmgn.watcHTTP.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		E95BD023230232B0007E990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TNZTGQL4G;
+				IBSC_MODULE = watcHTTP_WatchKit_Extension;
+				INFOPLIST_FILE = "watcHTTP WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thelmgn.watcHTTP.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		E95BD026230232B0007E990B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TNZTGQL4G;
+				INFOPLIST_FILE = watcHTTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thelmgn.watcHTTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E95BD027230232B0007E990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TNZTGQL4G;
+				INFOPLIST_FILE = watcHTTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thelmgn.watcHTTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E95BD029230232B0007E990B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TNZTGQL4G;
+				INFOPLIST_FILE = watcHTTPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thelmgn.watcHTTPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watcHTTP.app/watcHTTP";
+			};
+			name = Debug;
+		};
+		E95BD02A230232B0007E990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TNZTGQL4G;
+				INFOPLIST_FILE = watcHTTPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thelmgn.watcHTTPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watcHTTP.app/watcHTTP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E95BCFDE230232AD007E990B /* Build configuration list for PBXProject "watcHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95BD01B230232B0007E990B /* Debug */,
+				E95BD01C230232B0007E990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95BD01D230232B0007E990B /* Build configuration list for PBXNativeTarget "watcHTTP WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95BD01E230232B0007E990B /* Debug */,
+				E95BD01F230232B0007E990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95BD021230232B0007E990B /* Build configuration list for PBXNativeTarget "watcHTTP WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95BD022230232B0007E990B /* Debug */,
+				E95BD023230232B0007E990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95BD025230232B0007E990B /* Build configuration list for PBXNativeTarget "watcHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95BD026230232B0007E990B /* Debug */,
+				E95BD027230232B0007E990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95BD028230232B0007E990B /* Build configuration list for PBXNativeTarget "watcHTTPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95BD029230232B0007E990B /* Debug */,
+				E95BD02A230232B0007E990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E95BCFDB230232AD007E990B /* Project object */;
+}
