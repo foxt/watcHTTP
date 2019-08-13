@@ -1,15 +1,38 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14845" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch44"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14799.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14638"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller fullBounds="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="watcHTTP_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <picker width="1" height="104" alignment="left" focusStyle="stack" indicatorMode="shownWhileFocused" id="T1u-ig-TfF">
+                            <variation key="device=watch40mm" height="121"/>
+                            <variation key="device=watch42mm" height="126"/>
+                            <variation key="device=watch44mm" height="145"/>
+                            <connections>
+                                <action selector="pickerSelectedItemChangedWithValue:" destination="AgC-eL-Hgc" id="sK8-H0-jr9"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" verticalAlignment="bottom" accessibilityLabel="Send" accessibilityHint="This button sends the HTTP request." title="Send" id="fBN-Er-SXx">
+                            <accessibilityTraits key="accessibilityTraits" button="YES" staticText="YES"/>
+                            <connections>
+                                <action selector="sendBtnPressed" destination="AgC-eL-Hgc" id="23C-lX-Mk9"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="endpointPicker" destination="T1u-ig-TfF" id="LXi-e1-MLc"/>
+                        <outlet property="sendBtn" destination="fBN-Er-SXx" id="tZ5-SK-PJS"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="103.4782608695652" y="8.3482142857142865"/>
         </scene>
     </scenes>
 </document>

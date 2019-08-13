@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FB3486969C266D23B2B242F /* Pods_watcHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD129DF6086EF7D628C04E56 /* Pods_watcHTTP.framework */; };
+		976295CB6226C47C1DED8617 /* Pods_watcHTTPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0B47702404B484ACFAB333 /* Pods_watcHTTPTests.framework */; };
+		B232F0F2F27844C188CD64E3 /* Pods_watcHTTP_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4090BF97E425E90F12A24785 /* Pods_watcHTTP_WatchKit_Extension.framework */; };
+		D929A0CAAA5787E3EA2069A4 /* Pods_watcHTTP_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27080089C28A93DD46CB9D86 /* Pods_watcHTTP_WatchKit_App.framework */; };
 		E95BCFE7230232AD007E990B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BCFE6230232AD007E990B /* AppDelegate.swift */; };
 		E95BCFE9230232AD007E990B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BCFE8230232AD007E990B /* ViewController.swift */; };
 		E95BCFEC230232AD007E990B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95BCFEA230232AD007E990B /* Main.storyboard */; };
@@ -72,6 +76,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		216BDB580F8138F3684834E3 /* Pods-watcHTTP WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watcHTTP WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-watcHTTP WatchKit Extension/Pods-watcHTTP WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		27080089C28A93DD46CB9D86 /* Pods_watcHTTP_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watcHTTP_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDDBB47AA144B4E66B97449 /* Pods-watcHTTP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watcHTTP.debug.xcconfig"; path = "Target Support Files/Pods-watcHTTP/Pods-watcHTTP.debug.xcconfig"; sourceTree = "<group>"; };
+		4090BF97E425E90F12A24785 /* Pods_watcHTTP_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watcHTTP_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5961CD0F24CA7032AEFD928B /* Pods-watcHTTPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watcHTTPTests.release.xcconfig"; path = "Target Support Files/Pods-watcHTTPTests/Pods-watcHTTPTests.release.xcconfig"; sourceTree = "<group>"; };
+		663E14723021CCF7C609674B /* Pods-watcHTTP WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watcHTTP WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-watcHTTP WatchKit App/Pods-watcHTTP WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		8744F4A41225B85467DB2081 /* Pods-watcHTTP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watcHTTP.release.xcconfig"; path = "Target Support Files/Pods-watcHTTP/Pods-watcHTTP.release.xcconfig"; sourceTree = "<group>"; };
+		8C841AD646B0D10C0221F0F5 /* Pods-watcHTTPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watcHTTPTests.debug.xcconfig"; path = "Target Support Files/Pods-watcHTTPTests/Pods-watcHTTPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90BC0A61FC7D4170462A55E4 /* Pods-watcHTTP WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watcHTTP WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-watcHTTP WatchKit Extension/Pods-watcHTTP WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		9CF1FC95D99E0503900E6ECD /* Pods-watcHTTP WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watcHTTP WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-watcHTTP WatchKit App/Pods-watcHTTP WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		DD129DF6086EF7D628C04E56 /* Pods_watcHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watcHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95BCFE3230232AD007E990B /* watcHTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watcHTTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95BCFE6230232AD007E990B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E95BCFE8230232AD007E990B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,13 +106,23 @@
 		E95BD016230232AF007E990B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		E95BD018230232B0007E990B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E95BD01A230232B0007E990B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0B47702404B484ACFAB333 /* Pods_watcHTTPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_watcHTTPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3B0BC0010172FA08ED9C01BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D929A0CAAA5787E3EA2069A4 /* Pods_watcHTTP_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E95BCFE0230232AD007E990B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB3486969C266D23B2B242F /* Pods_watcHTTP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				976295CB6226C47C1DED8617 /* Pods_watcHTTPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,12 +138,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B232F0F2F27844C188CD64E3 /* Pods_watcHTTP_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ECAA310B3A931FFF19D7ED2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CDDBB47AA144B4E66B97449 /* Pods-watcHTTP.debug.xcconfig */,
+				8744F4A41225B85467DB2081 /* Pods-watcHTTP.release.xcconfig */,
+				663E14723021CCF7C609674B /* Pods-watcHTTP WatchKit App.debug.xcconfig */,
+				9CF1FC95D99E0503900E6ECD /* Pods-watcHTTP WatchKit App.release.xcconfig */,
+				90BC0A61FC7D4170462A55E4 /* Pods-watcHTTP WatchKit Extension.debug.xcconfig */,
+				216BDB580F8138F3684834E3 /* Pods-watcHTTP WatchKit Extension.release.xcconfig */,
+				8C841AD646B0D10C0221F0F5 /* Pods-watcHTTPTests.debug.xcconfig */,
+				5961CD0F24CA7032AEFD928B /* Pods-watcHTTPTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B178DA593F40F8FE405199D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD129DF6086EF7D628C04E56 /* Pods_watcHTTP.framework */,
+				27080089C28A93DD46CB9D86 /* Pods_watcHTTP_WatchKit_App.framework */,
+				4090BF97E425E90F12A24785 /* Pods_watcHTTP_WatchKit_Extension.framework */,
+				EF0B47702404B484ACFAB333 /* Pods_watcHTTPTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E95BCFDA230232AD007E990B = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +180,8 @@
 				E95BD004230232AE007E990B /* watcHTTP WatchKit App */,
 				E95BD013230232AF007E990B /* watcHTTP WatchKit Extension */,
 				E95BCFE4230232AD007E990B /* Products */,
+				0ECAA310B3A931FFF19D7ED2 /* Pods */,
+				5B178DA593F40F8FE405199D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E95BD025230232B0007E990B /* Build configuration list for PBXNativeTarget "watcHTTP" */;
 			buildPhases = (
+				E809F076EA4EA0DAF1FDE30C /* [CP] Check Pods Manifest.lock */,
 				E95BCFDF230232AD007E990B /* Sources */,
 				E95BCFE0230232AD007E990B /* Frameworks */,
 				E95BCFE1230232AD007E990B /* Resources */,
@@ -209,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E95BD028230232B0007E990B /* Build configuration list for PBXNativeTarget "watcHTTPTests" */;
 			buildPhases = (
+				623CA67299FD2ECAB8AC8DD7 /* [CP] Check Pods Manifest.lock */,
 				E95BCFF3230232AE007E990B /* Sources */,
 				E95BCFF4230232AE007E990B /* Frameworks */,
 				E95BCFF5230232AE007E990B /* Resources */,
@@ -227,8 +285,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E95BD021230232B0007E990B /* Build configuration list for PBXNativeTarget "watcHTTP WatchKit App" */;
 			buildPhases = (
+				F794DE6D53B04F2A689FA31B /* [CP] Check Pods Manifest.lock */,
 				E95BCFFE230232AE007E990B /* Resources */,
 				E95BD020230232B0007E990B /* Embed App Extensions */,
+				3B0BC0010172FA08ED9C01BE /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E95BD01D230232B0007E990B /* Build configuration list for PBXNativeTarget "watcHTTP WatchKit Extension" */;
 			buildPhases = (
+				6F863A7E847A783985FE7635 /* [CP] Check Pods Manifest.lock */,
 				E95BD00B230232AF007E990B /* Sources */,
 				E95BD00C230232AF007E990B /* Frameworks */,
 				E95BD00D230232AF007E990B /* Resources */,
+				B633120FB1DA1633F8D553B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -339,6 +401,114 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		623CA67299FD2ECAB8AC8DD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-watcHTTPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F863A7E847A783985FE7635 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-watcHTTP WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B633120FB1DA1633F8D553B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-watcHTTP WatchKit Extension/Pods-watcHTTP WatchKit Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-watcHTTP WatchKit Extension/Pods-watcHTTP WatchKit Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-watcHTTP WatchKit Extension/Pods-watcHTTP WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E809F076EA4EA0DAF1FDE30C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-watcHTTP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F794DE6D53B04F2A689FA31B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-watcHTTP WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E95BCFDF230232AD007E990B /* Sources */ = {
@@ -531,6 +701,7 @@
 		};
 		E95BD01E230232B0007E990B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90BC0A61FC7D4170462A55E4 /* Pods-watcHTTP WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -553,6 +724,7 @@
 		};
 		E95BD01F230232B0007E990B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 216BDB580F8138F3684834E3 /* Pods-watcHTTP WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -575,6 +747,7 @@
 		};
 		E95BD022230232B0007E990B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663E14723021CCF7C609674B /* Pods-watcHTTP WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -594,6 +767,7 @@
 		};
 		E95BD023230232B0007E990B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF1FC95D99E0503900E6ECD /* Pods-watcHTTP WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -613,6 +787,7 @@
 		};
 		E95BD026230232B0007E990B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CDDBB47AA144B4E66B97449 /* Pods-watcHTTP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -631,6 +806,7 @@
 		};
 		E95BD027230232B0007E990B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8744F4A41225B85467DB2081 /* Pods-watcHTTP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -649,6 +825,7 @@
 		};
 		E95BD029230232B0007E990B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C841AD646B0D10C0221F0F5 /* Pods-watcHTTPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -670,6 +847,7 @@
 		};
 		E95BD02A230232B0007E990B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5961CD0F24CA7032AEFD928B /* Pods-watcHTTPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
