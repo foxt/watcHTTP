@@ -12,8 +12,9 @@
                 <controller fullBounds="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="watcHTTP_WatchKit_App" customModuleProvider="target">
                     <items>
                         <picker width="1" height="104" alignment="left" focusStyle="stack" indicatorMode="shownWhileFocused" id="T1u-ig-TfF">
-                            <variation key="device=watch40mm" height="121"/>
-                            <variation key="device=watch42mm" height="126"/>
+                            <variation key="device=watch38mm" height="145"/>
+                            <variation key="device=watch40mm" height="143"/>
+                            <variation key="device=watch42mm" height="144"/>
                             <variation key="device=watch44mm" height="145"/>
                             <connections>
                                 <action selector="pickerSelectedItemChangedWithValue:" destination="AgC-eL-Hgc" id="sK8-H0-jr9"/>
@@ -32,7 +33,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="103.4782608695652" y="8.3482142857142865"/>
+            <point key="canvasLocation" x="102" y="7"/>
         </scene>
     </scenes>
 </document>

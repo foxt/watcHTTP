@@ -26,7 +26,6 @@ target 'watcHTTP WatchKit Extension' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'Alamofire', '5.0.0-beta.5'
-  pod 'AlamofireNetworkActivityIndicator', '~> 3.0.0-beta.2'
 
 
   # Pods for watcHTTP WatchKit Extension
