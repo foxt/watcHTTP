@@ -1,6 +1,9 @@
 ![logo](logo/com.thelmgn.watchttp-196px.png)
+
+![Made with Swift 5](https://img.shields.io/badge/Made%20with-Swift%205-FA7343?style=for-the-badge&logo=swift&logoColor=fff)
+
 # watcHTTP
-watcHTTP is a watchOS 6 and iOS 12 app to send HTTP requests from your wrist.
+watcHTTP is a watchOS 6 and iOS 13 app to send HTTP requests from your wrist.
 
 ## Notice
 
