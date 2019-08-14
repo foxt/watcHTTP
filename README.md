@@ -7,7 +7,7 @@ watcHTTP is a watchOS 6 and iOS 13 app to send HTTP requests from your wrist.
 
 ## Notice
 
-This code is very messy (and proabaly buggy too!) as it is my first project in Swift that isn't just a Hello World application.
+This code is very messy (and proabaly buggy too!) as it is my first project in Swift that isn't just a Hello World application. If you have any issues, feel free to PR or submit an issue.
 
 ## Thanks
 
